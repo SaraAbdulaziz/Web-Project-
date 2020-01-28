@@ -1,0 +1,265 @@
+body{font-family: calibri;
+font: cavolini;
+
+}
+
+main{background-image:
+url(heart.gif)}
+Html {
+	height: 100%;
+	width: 100% ;
+}
+
+	header div{text-align:center;
+	right: 3em;
+	top:3em;
+	}
+
+ 	img {max-width: 100%;}
+	
+
+#profile{
+    top:2em;
+    text-align:right;
+}
+
+	header h3{font-size:24px;}
+	header h2{font-size:30px;
+	}
+	
+	nav {
+		   position: -webkit-sticky;
+  position: sticky;
+  top:0%;
+  padding: 5px;
+  background-color:pink;
+      font-weight: bold;
+	  line-height: 3em;
+	color: black;
+	   
+	border-style: inset;
+	 text-align:center;
+	 font-size: 1.12em;
+	border-radius: 20px;
+	}
+	
+	
+	 div{text-align: center;
+	}
+	
+main{text-align: center;}
+
+	p{font-weight: bold;
+	font-size:20px; }
+ 
+
+h1{text-align: center;
+font-weight: bold;
+font-size:40px;}
+
+h2{text-align: center;
+font-weight: bold;
+font-size:32px;
+}
+
+h3{
+font-size:28px;
+color: gray;
+}
+footer{background-color:pink;
+      font-weight: bold;
+	  line-height: 3em;
+	  text-align: center;
+	  border-style: inset;
+	   font-size: 1.2em;
+	  border-radius: 20px;}
+
+fieldset{
+    text-align: center
+}
+
+.pics{
+
+ float: right;
+margin-left: 10em;
+
+}
+
+/*video{
+	text-align: center;
+	margin: auto;
+	display:block;
+	width: 75%;
+	
+}
+*/
+.form{
+text-align: center;}
+
+a:link {
+  color: PaleVioletRed;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: RosyBrown ;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+p {
+ /* font-family: "Times New Roman", Times, serif;*/
+  text-indent: 2em;
+  text-align: center;
+  font-size:20px;
+}
+
+table{
+	border-style:inset;
+	text-align: center;
+	justify-content: center;
+	font-size: 23px;
+	
+}
+th{
+	border-style:inset;
+	background-color:white;
+	color: black;
+	text-align: center;
+}
+
+td{border-style:inset;
+background-color:pink;
+text-align: center;
+
+}
+
+.f {border-style:hidden;
+margin-left:1em;
+margin-right: 1em;
+border-radius: 20px;
+padding-bottom: 3px;
+padding-top: 0.1px;}
+
+caption{color: gray; font-size:1.5em; font-weight:bold;}
+
+.h{display:flex;
+flex-direction: row;
+justify-content: space-around;
+color: gray;
+border-radius: 20px;}
+
+.fx{display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+	#hide{ font-size: 16px;
+		border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:5px 9px;
+	font-weight: bold;
+	margin-right: 13px;
+	}
+	#show{font-size: 16px;
+		border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:5px 9px;
+	font-weight: bold;
+	margin-left: 13px;}
+	
+	#sign{border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:10px 30px;
+	font-weight: bold;
+	
+	font-size: 24px;}
+	#Ascending{border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:10px 30px;
+	font-weight: bold;
+	font-size: 16px;}
+	
+	#logi{border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:10px 30px;
+	font-weight: bold;
+	font-size: 16px;}
+	
+	#logot{border-radius:10px;
+	border-style: none;
+	background-color:#fff2cc;
+	padding:10px 30px;
+	font-weight: bold;
+	font-size: 16px;}
+	
+
+	@media screen and (min-width: 40em){ /* for laptops screens*/ 
+		a{font-size:20px;}
+		.nv {padding-left: 12px;
+		padding-right: 12px;} 
+		.ft {padding-left: 12px;
+		padding-right: 12px;}
+		#sign{font-size: 28px;}
+		#covedio {
+		width:640px;
+		height:480px;
+	}
+	
+	}
+	
+    	@media screen and (max-width: 40em){ /*for phones screen */
+		h1{font-size:28px;} 
+		  h2{font-size:22px;} 
+		  h3{font-size:18px;}
+		  a{font-size:15px;}
+		 #go {width:230px; 
+		height:180px;}
+      #hr1	{font-size:18px;}
+	  #hr2	{font-size:22px;}
+	  p{font-size: 12px; font-weight: normal;}
+	 .h a img {width:280px;  height:90px;}
+		.f h3 {font-size:16px;}
+		nav{padding:0px;}
+		.fx a img{width:280px;  height:100px;}
+		.ev a img{width:290px;  height:180px;}
+		.ev h2{font-size:26px;}
+		.ev h3{font-size:20px;}
+		caption{font-size:22px;}
+		th{font-size:16px;}
+		td{font-size:14px;}
+		#baby {width:100px;  height:100px;}
+		#hide{margin-right: 6px; }
+	#show{margin-left: 6px; }
+	#sign{font-size: 18px;
+	padding:8px 20px;}
+	#SM {
+		width:22em;
+		height:10em;
+		
+	}
+	#covedio {
+		width:240px;
+		height:100px;
+	}
+	
+	}
+		
+		
+	
+	
+	

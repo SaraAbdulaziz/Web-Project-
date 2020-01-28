@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>Home </title>
+	  <meta name ="viewport" content="width=device-width, intial-scale=1" > 
+	  <link rel="stylesheet"href="style.css">
+	  <script src="script.js" type = "text/javascript"></script>
+ </head>
+ 
+ 
+ <body> 
+ 
+  <header>
+  <div  style="top:2em; text-align:right;">
+  <a href="login.html"> Log In </a>| <a href="profile.html"> Your Profile </a>
+ <a href="profile.html"> <img src="prof.png" alt="profile icone " width="40" height="40"  /> </a>
+   </div>
+  
+  <img id="go" src="logo.png" alt="logo "  width="340" height="280" 
+style="display: block; margin-left: auto; margin-right: auto;" onclick="hideElement()"/> 
+
+
+  
+  
+  <div>
+  <h3 id="hr1" >Here children will learn numbers,shapes and colors! </h3>
+  <h2 id="hr2">Let’s go learn !  </h2> </div>
+  
+  <nav id="nvvv" align ="right" > <a href="index.html"> Home </a>  |  
+  <a href="evaluations.html" class="nv" > Evaluations </a>  |  
+  <a href="lessons.html" class="nv"> Lessons </a>  |  <a href="about.html" class="nv" > About us </a> | 
+  <a href="contact.html"class="nv"> Contact us </a>  </nav>
+  
+  
+
+   <a href="index.html"> Home </a> 
+  </header>
+  
+  <main>
+    <input id="hide" type="button" value="Hide evreything !" onclick="hideElement()"> 
+	<input id="show" type="button" value="Show evreything !" onclick="showElement()"> 
+	<br><br>
+
+	<div class ="magic">
+  <div class = "f" style =" background-color:#ffe5e5;"  >
+   <h2 >About us </h2>
+
+   <p style="font-size: 16px; font-family: calibri;font: cavolini; color:gray;">
+   123Go! cares about children and we value the trust we place in our children's education and entertainment.<br>
+And teach them numbers, shapes and colors in an attractive manner and diverse methods. </p>
+   
+   
+ <img src="A.png" alt="kids" width="450" height="100" /></a> 
+ <br> <br>
+   </div>  
+  <br>
+  <div  class ="f" style ="background-color:#fff9e5;">
+  <h2>List of Lessons</h2>
+  <div class = "h" style ="background-color:#fff9e5;">
+ 
+   <div>
+    <a href="NumbersLesson.html"> <img src="num2.jpg" alt="number Lesson" width="380" height="230"></a> 
+   <h3>Numbers Lesson</h3> </div>
+   
+   <div>
+   <a href="shapesLesson.html"> <img src="shape.jpg" alt="Shapes Lesson" width="380" height="230"  /></a>
+   <h3>Shapes Lesson</h3>
+   </div>
+   
+    <div>
+   <a href="color.html"> <img src="color1.jpg" alt="Colors Lesson" width="380" height="230"  /></a>
+   <h3>Colors Lesson</h3>
+  </div>    
+  
+  </div> 
+  
+</div>
+  
+   <br>
+   
+     <div class ="f" style ="background-color:#e5ffec">
+     <h2>List of Evaluations</h2>
+	 
+  <div class = "h" style ="background-color:#e5ffec">
+  
+   <div>
+    <a href="NumbersEv.html"> <img src="num2.jpg" alt="numbers Evaluation" width="380" height="230"  /> </a>
+   <h3>Numbers Evaluation</h3></div>
+   
+   <div >
+   <a href="ShapesEvaluation.html"> <img src="shape.jpg" alt="Shapes Evaluation" width="380" height="230"   /></a>
+  <h3>Shapes Evaluation</h3>
+   </div>
+   
+    <div >
+   <a href="colorsEv.html">  <img src="color1.jpg" alt="Colors Evaluation" width="380" height="230"  /> </a>
+   <h3>Colors Evaluation</h3>
+  </div>    
+  
+  </div> </div> 
+  
+<br>
+
+  <div class = "f" style ="background-color:#e5f9ff">
+  <h2>Contact us </h2>
+  
+    Name: <input type="text" name="name">
+<br><br>
+
+  Phone:<input type="text" name="phone" value="">
+  <br><br>
+  
+  Subject:<input type="text" name="subject" value="">
+  <br><br>
+  
+  Message:
+  <br>
+  <textarea name="message" rows="5" cols="40"></textarea>
+  <br><br>
+
+  <input type="submit" value="Send">
+  
+  <br><br>
+  </div>
+  <br>
+    <div class = "f" style ="background-color: #fafafa">
+  <h2>Site Map </h2>
+  
+<img src="sitemap.jpg" id="SM" alt="SiteMap pics" width="940" height="330" />
+  <br><br>
+  </div>
+ 
+   <!-- <br>
+  
+   <a href="signup.html"> <input id="sign" type="button" value="SIGN UP" > </a>
+ </div>
+      <h2>login</h2>
+            <label>User name</label> 
+            <input type="text" name="UserName" id="Username"> <br>
+            <input type="submit" value="Login" name="SignIn" onclick="login()">
+            </div>
+            -->
+			<div id="logout">
+            <input type="submit" id ="logot" value="Log Out" name="SignOut" onclick="logout()">
+            </div>
+   <br> 
+  </main>
+  
+    <footer>
+<a href="index.html" class="ft" > Home </a>   |  <a href="about.html" class="ft" > About us </a> 
+  |  <a href="contact.html" class="ft" > Contact us </a> | <a href="sitemap.html" class="ft"> Site Map </a>
+
+ </footer>  
+  
+  </body>
+	</html>
